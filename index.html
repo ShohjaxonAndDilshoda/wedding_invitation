@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Сердечно приглашаем на свадьбу Шохжахона и Дилшоды </title>
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap&subset=cyrillic" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/wedding-icon-png-5.png" />
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <!-- <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/parrot.gif" alt="Party Parrot Gif" />
+      </div>
+    </div> -->
+    <!-- End Preloader-->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home" style="padding-bottom: 0px;">
+      
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+
+          <!-- Фоновое видео -->
+        <video autoplay muted loop playsinline id="bg-video">
+          <source src="image/video_2025-09-06_18-29-12.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Waktu">
+                  Время
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Локация
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#tentang-sherly-daeng">
+                  О невесте и женихе
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  RSVP
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h2 class="title" style="width: auto; ">Шохжахон & Дилшода</h2>
+            <h4 class="subtitle tempatwaktu">
+              
+                Пятница, 14 ноября  
+                </br>
+                Ресторан "Сарбон"              
+            </h4>
+          </div>
+
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Дней</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Часов</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Минут</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Секунд</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '11/14/2025 15:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +5, // TODO Your Timezone Offset
+                day: 'Дней',
+                days: 'Дней'
+              }, function () {
+                alert('Свадьба началась!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+
+
+
+
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Главная</a>
+                  </li>
+                  <li>
+                    <a href="#Waktu">Время</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi">Локация</a>
+                  </li>
+                  <!-- <li>
+                    <a href="#tentang-sherly-daeng">Tentang Sherly & Daeng</a>
+                  </li> -->
+
+                  <li>
+                    <a href="#rsvp">Подтверждение</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content
+     style="margin-top: -70px;" -->
+    <div class="main-content" style="padding-top: 0px;">
+
+      
+<!-- Begin regular-section-->
+<div class="section-light regular-section has-text-centered has-vertically-aligned-content" 
+     id="regular-section"
+     style="padding-top: 50px; padding-bottom: 300px; padding-left: 0px; padding-right: 0px;">
+
+  <p class="bodytext" data-aos="fade-in" data-aos-easing="linear">
+    ВЫ ПОЛУЧИЛИ ЭТУ ССЫЛКУ, 
+    <br />
+    А ЗНАЧИТ МЫ СПЕШИМ   
+    <br />
+    СООБЩИТЬ ВАМ ВАЖНУЮ 
+    <br />
+    НОВОСТЬ!
+</p>
+
+  <div data-aos="fade-in" data-aos-easing="linear">
+    <div class="nama-lengkap" style="margin-top: 20px;">
+      Мы женимся!
+    </div>
+
+    <!-- <div class="ampersand">&</div>
+
+    <div class="nama-lengkap" style="margin-top: -15px;">
+      Мохидил.
+    </div> -->
+    <div class="xdkndksn" style="margin-top: 13px;">
+    </div>
+  </div>
+<p class="bodytext" data-aos="fade-in" data-aos-easing="linear">
+    <br />
+    И ОЧЕНЬ ХОТИМ РАЗДЕЛИТЬ, 
+    <br />
+    С ВАМИ ЭТОТ СЧАСТЛИВЫЙ 
+    <br />
+    ПРАЗДНИК.
+    <br />
+    ЖДЕМ ВАС НА НАШЕЙ 
+    <br />
+    СВАДЬБЕ!
+</p>
+
+</div>
+<!-- End regular-section-->
+
+            <!-- Begin Waktu Section -->
+            <div class="section-dark" id="Waktu"  style="padding-top: 15px; padding-bottom: 50px;">
+              <div class="container">
+                <div class="column is-12 regular-section" style="padding-top: 35px;">
+                  <h1 class="title has-text-centered section-title" style="padding-bottom: 0px;">Время</h1>
+                </div>
+                <div class="columns is-multiline">
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-in" data-aos-easing="linear" 
+                  >
+                  
+                    <p class="is-larger has-text-centered">
+                        <div class="waktu tanggal-hari has-text-centered">Пятница</div> 
+                        <div class="waktu tanggal-angka has-text-centered">14</div>
+                        <div class="waktu tanggal-bulan has-text-centered">ноября</div>
+                    </p>
+                  
+                  </div>
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-right"   
+                                    >
+                  
+                    <p class="waktu is-larger has-text-centered">
+                      Торжественная церемония:
+                    </p>
+                  
+                  </div>
+
+                  <div
+                    class="column is-4 has-vertically-aligned-content"
+                    data-aos="fade-left">
+                    
+                    <h1 class="waktu is-larger has-text-centered">
+                      <strong>15:00 - 17:00 </strong>
+                    </h1>
+                  </div>
+                       <div class="nama-lengkap" style=" text-align: center; margin-top: 30px; font-size: 44px;  " data-aos="fade-in" data-aos-easing="linear">
+                        Мы будем рады <br > видеть вас! 
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!-- End Waktu Content -->
+
+            <!-- Begin Lokasi Section -->
+            <div class="section-light" id="lokasi" data-aos="fade-in" data-aos-easing="linear" 
+            style=" padding-bottom: 50px; padding-top: 50px; background: url(../Wedding-Invitation/image/photo_2025-09-05_21-27-28.jpg) no-repeat center top; background-size: cover; width: 100%;">
+              <div class="container">
+                <div class="column is-12 regular-section">
+                  <h1 class="title has-text-centered section-title" style="padding-bottom: 0px;">Место проведения
+                    <br>
+                    торжества
+                  </h1>
+                  <p class="tempat is-larger has-text-centered">
+                    <strong>Ресторан "Сарбон"</strong>
+                    <br>
+                    Фергана
+                    <br>
+                  </p>
+                </div>
+                <div class="section-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d759.4480510273003!2d71.77662799919739!3d40.4134539!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb83ca0089d331%3A0x79750de477f9a033!2sSarbon!5e0!3m2!1sru!2s!4v1760879672572!5m2!1sru!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="has-text-centered">
+                  <a href="https://maps.app.goo.gl/XaTdzL11wYQbMwPw8" class="button btn-arah" data-aos="fade-right">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp;Показать маршрут
+                  </a>
+                </div>
+              </div>
+            </div>
+      <!-- End Lokasi Content -->
+
+
+      
+
+      <!-- Begin Foto -->
+      <!-- <div class="section-dark foto-foto" id="foto">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">Foto-foto</h1>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=0');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=10');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=20');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=30');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=40');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=50');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=60');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 foto-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=70');"
+                ></figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- End Work Content -->
+
+          <!-- Begin PESAN SPONSOR-->
+          <!-- <div class="main-content section-cashbac">
+            <div class="container">
+              <div
+                class="columns is-multiline"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <div class="column is-12 regular-section">
+                  <h1 class="title has-text-centered section-title">
+                    Pesan Sponsor <img src="image/cashbac-logo.png" class="cashbac-logo-inline">
+                  </h1>
+                </div>
+                <div class="column is-12 has-text-centered">
+                  <img src="image/cashbac-mobile-app-teaser.svg">
+                  <br /><br />
+                  <h2 class="subtitle">
+                    Cashbac adalah aplikasi mobile gratis yang memberikan kamu reward points untuk setiap transaksi di merchant favorit kamu, membebaskan kamu dari banyak kesulitan untuk mendapatkan promo dan reward.
+                  </h2>
+
+                  <div class="column is-12 regular-section has-text-centered">
+                
+                    <a href="https://cashbac.onelink.me/1sXQ/homepage" target="_blank">
+                      <img class="button-download" type="svg" src="image/download-playstore.svg" />
+                    
+                    </a>
+                
+                
+                    <a href="https://cashbac.onelink.me/1sXQ/homepage" target="_blank">
+                      <img class="button-download" type="svg" src="image/download-appstore.svg" />
+                
+                      
+                    </a >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- End PESAN SPONSOR-->
+
+      <!-- Begin Tentang Sherly and Daeng -->
+      <!-- <div class="section-light regular-section" id="tentang-sherly-daeng">
+        <div class="container">
+          <div class="column is-12 prolog">
+            <h1 class="title has-text-centered section-title">Tentang Sherly dan Daeng</h1>
+          </div>
+          
+          <div class="columns">
+            <div class="column is-6">
+              Referral Code Sherly -->
+            
+                <!-- 1. Define some markup -->
+               
+                <!-- <div class="field has-addons">
+                  <input class="voucher-code is-expanded" id="foo" type="text" value="Bandung">
+                  <button class="btn-voucher-code is-expanded" data-clipboard-action="copy" data-clipboard-target="#foo">
+                    <i class="far fa-copy"></i>
+                    Copy
+                  </button>
+                </div>
+              
+            </div>
+            <div class="column is-6">
+              Referral Code Daeng
+              <div class="field has-addons">  
+                <input class="voucher-code is-expanded" id="foo1" type="text" value="Jakarta">
+                <button class="btn-voucher-code is-expanded" data-clipboard-action="copy" data-clipboard-target="#foo1">
+                  <i class="far fa-copy"></i>
+                  Copy
+                </button>
+              </div> -->
+              <!-- 2. Include library -->
+              <!-- <script src="js/clipboard.min.js"></script> -->
+
+              <!-- 3. Instantiate clipboard -->
+              <!-- <script>
+              var clipboard = new ClipboardJS('.btn-voucher-code');
+
+              clipboard.on('success', function(e) {
+                  console.log(e);
+              });
+
+              clipboard.on('error', function(e) {
+                  console.log(e);
+              });
+              </script> 
+            </div>
+          </div>
+        </div> -->
+
+        
+        
+      <!-- </div> -->
+      <!-- End Tentang Sherly dan Daeng -->
+
+<!-- Begin RSVP Content -->
+<div class="section-dark contact" id="rsvp" style="padding-top: 50px; padding-bottom: 50px;">
+  <div class="container">
+    <div
+      class="columns is-multiline"
+      data-aos="fade-in-up"
+      data-aos-easing="linear"
+    >
+      <div class="column is-12 prolog">
+        <h1 class="title has-text-centered section-title" style="color:#6d3f3f; padding-bottom: 0px;" >
+          Анкета гостя
+        </h1>
+      </div>
+
+      <div class="column is-12">
+        <form 
+          action="https://api.web3forms.com/submit" 
+          method="POST" 
+          class="pretty-form" 
+          data-aos="fade-in" 
+          data-aos-easing="linear"
+        >
+          <!-- 🔑 Access Key -->
+          <input type="hidden" name="access_key" value="75c1c0d9-a771-4de1-a215-5974b77e6169">
+
+          <div class="field">
+            <label class="label">Ваше имя</label>
+            <div class="control">
+              <input class="input" type="text" name="name" placeholder="Введите имя" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Телефон</label>
+            <div class="control">
+              <input class="input" type="tel" name="phone" placeholder="+998 90 123 45 67" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Количество человек</label>
+            <div class="control">
+              <input class="input" type="number" name="guests" min="1" placeholder="Например: 2" required>
+            </div>
+          </div>
+
+          <div class="field has-text-centered">
+            <button class="button confirm-btn" type="submit" >
+              Отправить подтверждение
+            </button>
+          </div>
+        </form>
+        
+      </div>
+      
+    </div>
+  </div>
+        <div style="text-align: center; margin-top: 50px;">
+          <p class="has-vertically-align">ВЫ МОЖЕТЕ НЕ ПЕРЕЖИВАТЬ<br>ПО ПОВОДУ ПОДАРКА, ЛЮБАЯ<br>КОМФОРТНАЯ ДЛЯ ВАС<br>СУММА В КОНВЕРТЕ<br>ПРИБЛИЗИТ НАС<br>К МЕЧТЕ</p>
+        </div>
+</div>
+<!-- End RSVP Content -->
+
+
+<style>
+/* Контейнер формы */
+.pretty-form {
+  background: #fffafc;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  max-width: 600px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Заголовок */
+.section-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Подписи */
+.pretty-form .label {
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+/* Поля */
+.pretty-form .input {
+  border-radius: 10px;
+  border: 1px solid #e2c9d7;
+  transition: all 0.2s;
+}
+
+.pretty-form .input:focus {
+  border-color: #d68ca1;
+  box-shadow: 0 0 8px rgba(214,140,161,0.3);
+  background: #fff0f5;
+}
+
+/* Убираем стрелки в Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Убираем стрелки в Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+/* Кнопка */
+.confirm-btn {
+  background-color: #d68ca1;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  transition: background 0.3s ease;
+  text-align: center;
+  margin: 20px auto 0; 
+  display: block;
+  line-height: 0;
+    
+}
+
+.confirm-btn:hover {
+  background-color: #b76b84;
+}
+
+</style>
+
+
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+        <p class="has-vertically-align">2025 &copy Хуршид Муротов</p>
+        <br>
+        <p class="smth">+998911185884</p>
+        <!-- <a href="https://bulma.io" class="has-vertically-align">
+          <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
+        </a>
+        <a href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
+        </a> -->
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
